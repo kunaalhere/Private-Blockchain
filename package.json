@@ -20,6 +20,8 @@
   "homepage": "https://github.com/kunaalhere/Private-Blockchain#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.28.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
