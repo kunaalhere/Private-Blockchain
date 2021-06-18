@@ -2,10 +2,12 @@
   "name": "private-blockchain",
   "version": "1.0.0",
   "description": "A private Blockchain systems architecture in Node.Js and installable by NPM",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./src -d ./lib"
+    "build": "babel ./src -d ./lib",
+    "lint": "eslint ./src",
+    "run": "./src/main.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^7.28.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.0.1",
+    "nyc": "^15.1.0"
   }
 }
