@@ -1,4 +1,10 @@
 import smartpy as sp
+
+#from algosdk.future import transaction
+#from algosdk import account, mnemonic
+#from algosdk.v2client import algod
+#from pyteal import compileTeal, Mode
+
 # Defines the class MyClass and its constructor.
 class MyClass(sp.Contract):
     def __init__(self):
@@ -12,7 +18,7 @@ class MyClass(sp.Contract):
 @addTest(name = "myFirstSmartContractTest")
 def mySmartContractTest():
     # Creates a string variable to build the output.
-    html = "/main.js"
+    html = "/src/main.js"
     # Instantiates an object of class "MyClass".
     mySmartContract = MyClass()
     
