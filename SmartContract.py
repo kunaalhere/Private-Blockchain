@@ -12,7 +12,7 @@ class MyClass(sp.Contract):
 @addTest(name = "myFirstSmartContractTest")
 def mySmartContractTest():
     # Creates a string variable to build the output.
-    html = ""
+    html = "/main.js"
     # Instantiates an object of class "MyClass".
     mySmartContract = MyClass()
     
